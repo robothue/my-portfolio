@@ -18,7 +18,7 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          Magnum Geez
+          Abdallah Masudi
         </h1>
 
         <h2

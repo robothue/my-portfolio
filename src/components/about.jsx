@@ -10,7 +10,7 @@ export default function About() {
         </h2>
         <div className="mt-6 text-lg leading-relaxed">
           <p className="mb-4">
-            I'm <span className="font-semibold text-indigo-600">Magnum Geez</span>, a passionate web developer with a background in statistics and a love for building clean, user-friendly digital experiences.
+            I'm <span className="font-semibold text-indigo-600">Abdallah Masudi</span>, a passionate web developer with a background in statistics and a love for building clean, user-friendly digital experiences.
           </p>
           <p className="mb-4">
             I specialize in backend development using the MERN stack (MongoDB, Express.js, React, Node.js) and enjoy solving complex problems with elegant solutions.

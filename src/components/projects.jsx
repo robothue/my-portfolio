@@ -1,5 +1,7 @@
 import { useState } from "react";
 import projects from "../data/projectsData";
+import { Link } from "react-router-dom";
+
 
 
 // Get all unique techs from projects
@@ -107,7 +109,16 @@ export default function Projects() {
           </div>
         ))}
       </div>
+      <div className="mt-10 text-center">
+  <Link
+    to="/projects"
+    className="inline-block bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition"
+  >
+    See More Projects
+  </Link>
+</div>
     </section>
+    
   );
 }
 
