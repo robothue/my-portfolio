@@ -10,14 +10,15 @@ const projects = [
       github: "https://github.com/yourgithub/movie-explorer",
     },
     {
-      title: "Task Manager",
-      description: "A full-stack task tracker built with the MERN stack and JWT authentication.",
-      tech: ["MongoDB", "Express", "React", "Node.js"],
-      category: "Fullstack",
-      image: "https://picsum.photos/seed/movie-explorer/600/400",
-      link: "#",
-      github: "https://github.com/yourgithub/task-manager",
-    },
+      title: "Cinema Fanatics",
+      description: "A clean and immersive UI/UX concept for a movie fan platform, designed for discovery and excitement.",
+      tech: ["UI/UX", "Figma", "Behance"],
+      category: "UI/UX",
+      image: "https://www.behance.net/gallery/129296607/Cinema-Fanatics/modules/732746971",
+      link: "https://www.behance.net/gallery/129296607/Cinema-Fanatics",
+      github: "", // Optional if no GitHub repo
+    } 
+    ,
     {
       title: "Portfolio Website",
       description: "This very site — my personal portfolio built with React and Tailwind.",

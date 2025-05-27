@@ -1,4 +1,3 @@
-// App.jsx
 import { useLocation, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
@@ -27,25 +26,27 @@ function App() {
   return (
     <>
       <Navbar />
-      <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <About />
-                <Projects />
-                <Skills />
-                <Contact />
-                <Footer />
-              </>
-            }
-          />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </AnimatePresence>
+      <div className="pt-20"> {/* This pushes content below the fixed Navbar */}
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <About />
+                  <Projects />
+                  <Skills />
+                  <Contact />
+                  <Footer />
+                </>
+              }
+            />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </AnimatePresence>
+      </div>
     </>
   );
 }
@@ -53,33 +54,12 @@ function App() {
 export default App;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { useLocation } from "react-router-dom";
+// // App.jsx
+// import { useLocation, Routes, Route } from "react-router-dom";
 // import { AnimatePresence } from "framer-motion";
-// import NotFound from "./pages/notFound";
+// import { useEffect } from "react";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 // import './App.css';
 
@@ -91,34 +71,33 @@ export default App;
 // import Footer from './components/footer';
 // import Skills from './components/skills';
 // import ProjectsPage from './pages/projectsPage';
-
+// import NotFound from './pages/notFound';
 
 // function App() {
-//   useEffect(() => {
-//     AOS.init({
-//       duration: 1000,
-//       once: true,
-//     });
-//   }, []);
 //   const location = useLocation();
 
+//   useEffect(() => {
+//     AOS.init({ duration: 1000, once: true });
+//   }, []);
 
 //   return (
-  
 //     <>
 //       <Navbar />
 //       <AnimatePresence mode="wait">
 //         <Routes location={location} key={location.pathname}>
-//           <Route path="/" element={
-//             <>
-//               <Hero />
-//               <About />
-//               <Projects />
-//               <Skills />
-//               <Contact />
-//               <Footer />
-//             </>
-//           } />
+//           <Route
+//             path="/"
+//             element={
+//               <>
+//                 <Hero />
+//                 <About />
+//                 <Projects />
+//                 <Skills />
+//                 <Contact />
+//                 <Footer />
+//               </>
+//             }
+//           />
 //           <Route path="/projects" element={<ProjectsPage />} />
 //           <Route path="*" element={<NotFound />} />
 //         </Routes>
@@ -128,6 +107,9 @@ export default App;
 // }
 
 // export default App;
+
+
+
 
 
 
