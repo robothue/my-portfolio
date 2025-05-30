@@ -1,3 +1,4 @@
+// App.jsx
 import { useLocation, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
@@ -26,32 +27,38 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="pt-20"> {/* This pushes content below the fixed Navbar */}
-        <AnimatePresence mode="wait">
-          <Routes location={location} key={location.pathname}>
-            <Route
-              path="/"
-              element={
-                <>
-                  <Hero />
-                  <About />
-                  <Projects />
-                  <Skills />
-                  <Contact />
-                  <Footer />
-                </>
-              }
-            />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </AnimatePresence>
-      </div>
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <About />
+                <Skills /> {/* Skills moved above Projects */}
+                <Projects />
+                <Contact />
+                <Footer />
+              </>
+            }
+          />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </AnimatePresence>
     </>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
 
 
 // // App.jsx
@@ -66,10 +73,10 @@ export default App;
 // import Hero from './components/hero';
 // import Navbar from './components/navbar';
 // import About from './components/about';
+// import Skills from './components/skills'; // moved up
 // import Projects from './components/projects';
 // import Contact from './components/contacts';
 // import Footer from './components/footer';
-// import Skills from './components/skills';
 // import ProjectsPage from './pages/projectsPage';
 // import NotFound from './pages/notFound';
 
@@ -91,8 +98,8 @@ export default App;
 //               <>
 //                 <Hero />
 //                 <About />
+//                 <Skills /> {/* Moved up here */}
 //                 <Projects />
-//                 <Skills />
 //                 <Contact />
 //                 <Footer />
 //               </>
@@ -107,10 +114,6 @@ export default App;
 // }
 
 // export default App;
-
-
-
-
 
 
 
