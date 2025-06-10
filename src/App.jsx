@@ -16,6 +16,7 @@ import Footer from './components/footer';
 import Skills from './components/skills';
 import ProjectsPage from './pages/projectsPage';
 import NotFound from './pages/notFound';
+import FeaturedProjects from "./components/featuredProjects";
 
 function App() {
   const location = useLocation();
@@ -36,7 +37,7 @@ function App() {
                 <Hero />
                 <About />
                 <Skills /> {/* Skills moved above Projects */}
-                <Projects />
+                <FeaturedProjects />
                 <Contact />
                 <Footer />
               </>

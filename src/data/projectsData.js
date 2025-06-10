@@ -7,6 +7,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/cinema.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/129296607/Cinema-Fanatics",
+        date: "2025-05-28",
         github: null // Behance projects usually don’t have code repositories
       },
       {
@@ -16,6 +17,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/ppl.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/136126267/PPL",
+        date: "2025-05-27",
         github: null // Behance projects typically don't have code repositories
       },
       {
@@ -25,6 +27,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/admin.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/130892485/Admin-Dashboard",
+        date: "2025-05-26",
         github: null // Behance projects typically don't have code repositories
       },
       {
@@ -34,6 +37,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/digital.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/130674943/Digital-Network-Landing-Page",
+        date: "2025-05-25",
         github: null // Behance projects typically don't have code repositories
       },
       {
@@ -43,6 +47,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/infinite.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/130416461/Infinite-Space",
+        date: "2025-05-24",
         github: null // Behance projects typically don't have code repositories
       },
       {
@@ -52,6 +57,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/shoe.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/130246037/Shoe-Factorie",
+        date: "2025-05-23",
         github: null // Behance projects typically don't have code repositories
       },
       {
@@ -61,6 +67,7 @@ const projects = [
         category: "UI/UX",
         image: "/projects/blue.png", // Replace with your local image path
         link: "https://www.behance.net/gallery/130043647/BlueSea-Travel-App",
+        date: "2025-04-30",
         github: null // Behance projects typically don't have code repositories
       }
       
