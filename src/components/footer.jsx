@@ -13,14 +13,15 @@ export default function Footer() {
         >
           GitHub
         </a>
-        <a
-          href="https://linkedin.com/in/yourusername"
-          target="_blank"
+        <a 
+          href="https://x.com/acidentalgeniu5" 
+          target="_blank" 
           rel="noopener noreferrer"
           className="transition hover:text-[#BA68C8]"
-        >
-          LinkedIn
+          >  
+        X (Twitter)
         </a>
+
         <a
           href="mailto:bahatimasudi2532@gmail.com"
           className="transition hover:text-[#BA68C8]"
