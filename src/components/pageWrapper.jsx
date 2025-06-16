@@ -1,4 +1,3 @@
-// components/PageWrapper.jsx
 import { motion } from "framer-motion";
 
 const pageVariants = {
@@ -10,6 +9,7 @@ const pageVariants = {
 export default function PageWrapper({ children }) {
   return (
     <motion.div
+      className="pt-20" // pushes content below navbar
       variants={pageVariants}
       initial="initial"
       animate="animate"
