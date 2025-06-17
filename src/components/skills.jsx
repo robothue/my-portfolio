@@ -10,11 +10,11 @@ import {
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { GrRestroom } from "react-icons/gr";
 
-import builderImg from "/illuz/builder.svg";
-import visualThinkerImg from "/illuz/visual thinker.svg";
-import alwaysLearningImg from "/illuz/always learning.svg";
-import problemSolverImg from "/illuz/problem solver.svg";
-import communicatorImg from "/illuz/team communicator.svg";
+import builderImg from "../assets/builder.svg";
+import visualThinkerImg from "../assets/visual thinker.svg";
+import alwaysLearningImg from "../assets/always learning.svg";
+import problemSolverImg from "../assets/problem solver.svg";
+import communicatorImg from "../assets/team communicator.svg";
 
 export default function Skills() {
   useEffect(() => {

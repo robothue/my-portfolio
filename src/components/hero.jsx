@@ -1,3 +1,6 @@
+import heroImage from '../assets/hero.3.png';
+
+
 export default function Hero() {
   return (
     <section
@@ -23,7 +26,7 @@ export default function Hero() {
       {/* Illustration */}
       <div className="flex-1 flex justify-center" data-aos="fade-left">
         <img
-          src="/illuz/hero.png"
+          src={heroImage}
           alt="Developer illustration"
           className="w-full max-w-md"
           style={{

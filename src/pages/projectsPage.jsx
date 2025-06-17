@@ -7,8 +7,11 @@ import PageWrapper from "../components/pageWrapper";
 export default function ProjectsPage() {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
+  
+    // Scroll to top when ProjectsPage loads
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
-
+  
   return (
     <PageWrapper>
       <section className="min-h-screen bg-[#FAF5FF] dark:bg-gray-900 py-20 px-6 md:px-12 max-w-7xl mx-auto text-gray-800 dark:text-gray-100">
