@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 bg-white text-gray-800 px-6 md:px-12 max-w-6xl mx-auto"
+      className="py-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 px-6 md:px-12 max-w-6xl mx-auto transition-colors duration-300"
       data-aos="fade-up" 
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 border-b-4 border-brand inline-block">

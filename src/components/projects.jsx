@@ -20,8 +20,8 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-gray-100 px-6 md:px-12 max-w-7xl mx-auto"
-    >
+      className="py-20 bg-gray-100 dark:bg-gray-900 px-6 md:px-12 max-w-7xl mx-auto transition-colors duration-300"
+      >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 border-b-4 border-indigo-600 inline-block">
         Projects
       </h2>

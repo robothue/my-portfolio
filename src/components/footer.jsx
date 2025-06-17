@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#f9f3fc] py-6 text-center mt-20">
+    <footer className="bg-[#f9f3fc] dark:bg-gray-900 py-6 text-center mt-20">
       <p className="text-sm text-gray-600">
         © {new Date().getFullYear()} Abdallah Masudi. All rights reserved.
       </p>

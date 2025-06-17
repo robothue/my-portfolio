@@ -21,8 +21,8 @@ export default function FeaturedProjects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-white px-6 md:px-12 max-w-7xl mx-auto"
-    >
+      className="py-20 bg-white dark:bg-gray-900 px-6 md:px-12 max-w-7xl mx-auto"
+      >
       <h2 className="text-3xl md:text-4xl font-bold mb-6 border-b-4 border-[#BA68C8] inline-block">
         Featured Projects
       </h2>
@@ -49,8 +49,7 @@ export default function FeaturedProjects() {
         {displayedProjects.map((project, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition"
-          >
+            className="bg-white dark:bg-gray-900 rounded-xl shadow-md hover:shadow-xl transition p-6 text-gray-800 dark:text-gray-100">
             {project.image && (
               <img
                 src={project.image}

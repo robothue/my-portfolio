@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-6 md:px-12 max-w-4xl mx-auto text-gray-800 bg-gradient-to-br from-[#f3e4fa] via-white to-[#ecd9f6] rounded-xl shadow-xl"
+      className="py-20 px-6 md:px-12 max-w-4xl mx-auto text-gray-800 dark:text-gray-100 bg-gradient-to-br from-[#f3e4fa] via-white to-[#ecd9f6] dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 rounded-xl shadow-xl"
       data-aos="fade-up"
     >
       <h2

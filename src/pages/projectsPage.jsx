@@ -11,7 +11,7 @@ export default function ProjectsPage() {
 
   return (
     <PageWrapper>
-      <section className="min-h-screen bg-[#FAF5FF] py-20 px-6 md:px-12 max-w-7xl mx-auto text-gray-800">
+      <section className="min-h-screen bg-[#FAF5FF] dark:bg-gray-900 py-20 px-6 md:px-12 max-w-7xl mx-auto text-gray-800 dark:text-gray-100">
         <h2
           className="text-4xl font-bold mb-10 border-b-4 border-[#BA68C8] text-[#BA68C8] inline-block"
           data-aos="fade-up"
@@ -23,7 +23,7 @@ export default function ProjectsPage() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition"
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition text-gray-800 dark:text-gray-100"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

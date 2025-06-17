@@ -52,7 +52,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 bg-[#FAF5FF] px-6 md:px-12 max-w-7xl mx-auto"
+      className="py-20 bg-[#FAF5FF] dark:bg-gray-900 px-6 md:px-12 max-w-7xl mx-auto transition-colors duration-300"
       data-aos="fade-up"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-10 border-b-4 border-[#BA68C8] text-[#BA68C8] inline-block">
@@ -62,7 +62,7 @@ export default function Skills() {
       {/* Row 1 – 2 Items */}
       <div className="flex flex-col md:flex-row gap-8 mb-10">
         {skills.slice(0, 2).map((skill, index) => (
-          <div key={index} className="flex flex-col items-center text-center flex-1 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+          <div key={index} className="flex flex-col items-center text-center flex-1 bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-gray-800 dark:text-gray-100">
             <img src={skill.image} alt={skill.title} className="w-39 h-40 mb-4 object-contain" />
             <h3 className="text-xl font-semibold text-[#BA68C8] mb-2">{skill.title}</h3>
             <p className="text-gray-700 max-w-xs">{skill.description}</p>
@@ -73,7 +73,7 @@ export default function Skills() {
       {/* Row 2 – 3 Items */}
       <div className="flex flex-col md:flex-row gap-8">
         {skills.slice(2).map((skill, index) => (
-          <div key={index} className="flex flex-col items-center text-center flex-1 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+          <div key={index} className="flex flex-col items-center text-center flex-1 bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-gray-800 dark:text-gray-100">
             <img src={skill.image} alt={skill.title} className="w-39 h-40 mb-4 object-contain" />
             <h3 className="text-xl font-semibold text-[#BA68C8] mb-2">{skill.title}</h3>
             <p className="text-gray-700 max-w-xs">{skill.description}</p>
